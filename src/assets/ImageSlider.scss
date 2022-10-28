@@ -1,0 +1,49 @@
+.image-slider {
+    .swiper-slide {
+        padding-top: 70%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+.swiper-button-prev {
+    left: 30;
+    color: rgb(255, 255, 255)
+}
+
+.swiper-button-next {
+    right: 30;
+    color: rgb(255, 255, 255);
+}
+
+.image-slider-thumbs {
+    .swiper-slide {
+        cursor: pointer;
+        border: 1px solid rgb(150, 150, 150);
+
+        &-thumb-active {
+            border-color: rgb(200, 55, 150);
+        }
+    }
+
+    &-wrapper {
+        width: 100%;
+        padding-top: 65%;
+        overflow: hidden;
+        position: relative;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;   
+        }
+    }
+}
